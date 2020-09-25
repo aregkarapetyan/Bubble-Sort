@@ -18,9 +18,9 @@ def bubble_sort(publication_year_list):
 
 def swap(element1, element2):
     temp = element2
-    NEWelement2 = element1
-    NEWelement1 = temp
-    return NEWelement1, NEWelement2
+    element2 = element1
+    element1 = temp
+    return element1, element2
 
 def print_ordered_books(book_list, publication_year_list):
     for i in range(len(publication_year_list)):
